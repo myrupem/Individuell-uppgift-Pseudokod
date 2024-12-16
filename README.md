@@ -23,11 +23,11 @@ I denna övning så ska du skapa ett spel baserat på ett ordpussel skapat av Le
 ### Vad
 Lewis Carroll är förmodligen mest känd som författaren bakom Alice i underlandet men han var även matematiker och hade en förkärlek för ordlekar, logik och fantasi. Läser du Alice i underlandet speciellt på engelska går det att se att boken är fylld av just detta. Nedan är ett exempel:
 
-“Take some more tea,” the March Hare said to Alice, very earnestly.
+> “Take some more tea,” the March Hare said to Alice, very earnestly.
 
-“I’ve had nothing yet,” Alice replied in an offended tone: “so I can’t take more.”
+> “I’ve had nothing yet,” Alice replied in an offended tone: “so I can’t take more.”
 
-“You mean you can’t take less,” said the Hatter: “It’s very easy to take more than nothing.”
+> “You mean you can’t take less,” said the Hatter: “It’s very easy to take more than nothing.”
 
 Han tyckte även om att skapa olika typer av pussel både rena logikpussel men pussel som leker med orden. Ett av hans mesta kända pussel heter Doublets som du kommer få göra i denna övning.
 
