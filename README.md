@@ -1,21 +1,21 @@
 # Individuell inlämningsuppgift: Pseudokod
 ## Instruktioner
-Du ska i denna inlämningsuppgift skriva pseudokod för nedanstående problem. Om du vill kan du använda dig av de keywords som finns i detta cheat sheet.
+Du ska i denna inlämningsuppgift skriva pseudokod för nedanstående problem. Om du vill kan du använda dig av de keywords som finns i detta [cheat sheet](https://gist.github.com/zocom-christoffer-wallenberg/dbb443c26407cfec308f9578ccf9845a).
 
-Det finns två problem, ett för G och ett för VG. För att få VG ska du göra både G och VG-nivån. Du får alltså inte VG för att bara skriva pseudokod för VG-nivån.
+Det finns två problem, ett för **G** och ett för **VG**. För att få **VG** ska du göra **både** G och VG-nivån. Du får alltså inte VG för att bara skriva pseudokod för VG-nivån.
 
 All "kodning" skall göras inom anvisade block i filen script.js. Där finns även förslag på startkod. Denna är frivillig att använda, och vill man istället skriva helt egen pseudokod från "scratch" så är detta tillåtet.
 
 ## G-nivå - Split the nota
-Split the nota räknar ut hur mycket varje vän ska betala på exempelvis en restaurang när notan kommer. Användaren matar in summan, antal vänner och sedan dricks (som skrivs i decimalform d.v.s 10% blir 0.10). Skisserna nedan är mest för att ge visuell bild av hur det ser ut, ni behöver inte ha med sådant som "byt vy" eller liknande i er pseudokod.
+Split the nota räknar ut hur mycket varje vän ska betala på exempelvis en restaurang när notan kommer. Användaren matar in summan, antal vänner och sedan dricks **(som skrivs i decimalform d.v.s 10% blir 0.10)**. Skisserna nedan är mest för att ge visuell bild av hur det ser ut, ni behöver inte ha med sådant som "byt vy" eller liknande i er pseudokod.
 
-Räkna ut
+### Räkna ut
 
-alt text
+ alt text BILD
 
-Visa summa
+**Visa summa**
 
-alt text
+alt text BILD
 
 ## VG-nivå - Lewis Carroll Word Puzzle
 I denna övning så ska du skapa ett spel baserat på ett ordpussel skapat av Lewis Carroll.
@@ -70,16 +70,17 @@ Ange ett ord som inte inkluderas i varaibeln ordbok.
 Ändra fler eller färre bokstäver än 1 per runda. (Koden för detta MÅSTE abstraheras i en separat funktion)
 
 ## Krav
-För Godkänt måste du:
+**För Godkänt måste du:**
 
-Göra G-uppgiften
-Skapa ett flödesdiagram över processen
-Skapa pseudokod som skulle fungera
-För Väl Godkänt måste du:
+- Göra G-uppgiften
+- Skapa ett flödesdiagram över processen
+- Skapa pseudokod som skulle fungera
 
-Göra G- och VG-uppgiften
-Skapa ett flödesdiagram över processerna
-Skapa pseudokod som skulle fungera för båda programmen
+**För Väl Godkänt måste du:**
+
+- Göra G- och VG-uppgiften
+- Skapa ett flödesdiagram över processerna
+- Skapa pseudokod som skulle fungera för båda programmen
 
 ## Inlämning
-Uppladdning av ditt repo på Github senast 20/12 23:59! Ta en printscreen över ditt / dina flödesdiagram och klistra in i readme-filen i ditt repo.
+Uppladdning av ditt repo på Github senast **20/12 23:59!** Ta en printscreen över ditt / dina flödesdiagram och klistra in i readme-filen i ditt repo.
