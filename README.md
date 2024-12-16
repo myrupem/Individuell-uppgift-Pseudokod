@@ -11,11 +11,11 @@ Split the nota räknar ut hur mycket varje vän ska betala på exempelvis en res
 
 ### Räkna ut
 
- alt text BILD
+![alt text](https://user-images.githubusercontent.com/54267140/108719099-75757500-751f-11eb-8c3b-f80a1dca7956.png)
 
 **Visa summa**
 
-alt text BILD
+![alt text](https://user-images.githubusercontent.com/54267140/108719104-76a6a200-751f-11eb-9d43-8d3d7b355793.png)
 
 ## VG-nivå - Lewis Carroll Word Puzzle
 I denna övning så ska du skapa ett spel baserat på ett ordpussel skapat av Lewis Carroll.
@@ -36,21 +36,21 @@ Pusslet går ut på att du får ett startord och ett slutord och du ska genom at
 
 #### Regler
 
-Du får enbart byta ut en bokstav åt gången.
-Varje ord som bildas måste vara ett korrekt engelskt ord, dvs. det måste finnas i variabeln vid namn ordbok.
+- Du får enbart byta ut en bokstav åt gången.
+- Varje ord som bildas måste vara ett korrekt engelskt ord, dvs. det måste finnas i variabeln vid namn ordbok.
 
 #### Exempel
 
 I detta exempel så ska vi få FOUR att bli FIVE. Observera att själva spelet är på engelska.
 
-FOUR (startord)
-FOUL (Bytte ut R till L)
-FOOL (Bytte ut U till O)
-FOOT (Bytte ut L till T)
-FORT (Bytte ut O till R)
-FORE (Bytte ut T till E)
-FIRE (Bytte ut O till I)
-FIVE (Slutord)
+- FOUR (startord)
+- FOUL (Bytte ut R till L)
+- FOOL (Bytte ut U till O)
+- FOOT (Bytte ut L till T)
+- FORT (Bytte ut O till R)
+- FORE (Bytte ut T till E)
+- FIRE (Bytte ut O till I)
+- FIVE (Slutord)
 
 #### Hur
 Börja med att testa pusslet med papper och penna gör ett pussel så du förstår hur det fungerar. Skriva varje nytt ord under det förgående ordet som jag har gjort ovan och håll dig till reglerna.
@@ -66,8 +66,8 @@ Därefter går du över till att skriva pseudokod för pusslet.
 #### Tänk på!
 Din pseudokod måste innefatta kontroller som kontrollerar användarens input. Användaren får inte:
 
-Ange ett ord som inte inkluderas i varaibeln ordbok.
-Ändra fler eller färre bokstäver än 1 per runda. (Koden för detta MÅSTE abstraheras i en separat funktion)
+- Ange ett ord som inte inkluderas i varaibeln ordbok.
+- Ändra fler eller färre bokstäver än 1 per runda. (Koden för detta MÅSTE abstraheras i en separat funktion)
 
 ## Krav
 **För Godkänt måste du:**
