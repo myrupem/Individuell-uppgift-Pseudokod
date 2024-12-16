@@ -84,3 +84,11 @@ Din pseudokod måste innefatta kontroller som kontrollerar användarens input. A
 
 ## Inlämning
 Uppladdning av ditt repo på Github senast **20/12 23:59!** Ta en printscreen över ditt / dina flödesdiagram och klistra in i readme-filen i ditt repo.
+
+## Flödesdiagram
+
+# Split the Nota
+
+![alt text](splitnota.png)
+
+# Lewis Carroll Word Puzzle
