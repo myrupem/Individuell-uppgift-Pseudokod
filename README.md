@@ -93,5 +93,5 @@ Uppladdning av ditt repo på Github senast **20/12 23:59!** Ta en printscreen ö
 
 # Lewis Carroll Word Puzzle
 
-![alt text](darwinsgame.png)
+![alt text](lewisgame.png)
 
