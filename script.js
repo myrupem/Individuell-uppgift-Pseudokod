@@ -50,7 +50,6 @@ function play()
     PRINT Slutordet är "FIVE"
     PRINT Skriv in ett ord:
     
-    
     WHILE wordTwo !== slutOrd // Loopa denna funktionen så länge användarens ord inte är slutordet
         Användaren skriver in ett ord i wordTwo
         Kör funtionen isOneLetterApart(wordOne, wordTwo)
