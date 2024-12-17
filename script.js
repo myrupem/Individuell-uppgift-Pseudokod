@@ -43,13 +43,57 @@ function play()
     SET variabel startOrd till "FOUR";
     SET variabel slutordOrd till "FIVE";
 
+    SET variabel wordOne = Till en början ordet "FOUR" men sedan INPUT från användaren
+    SET variabel wordTwo = INPUT från användaren
+
+    PRINT Startordet är "FOUR"
+    PRINT Slutordet är "FIVE"
+    PRINT Skriv in ett ord:
+    
+    
+    WHILE wordTwo !=== slutOrd // Loopa denna funktionen så länge användarens ord inte är slutordet
+        Användaren skriver in ett ord i wordTwo
+        Kör funtionen isOneLetterApart(wordOne, wordTwo)
+        Kör funtionen wordExistsInOrdbok(wordTwo)
+
+        IF isOneLetterApart === true &&& wordExistsInOrdbok === true THEN // Om det bara är en bokstav som ändrats och ordet finns med i ordboken
+            PRINT Du skrev in wordTwo, snyggt! Fortsätt spela
+        ELSE IF isOneLetterApart === false &&& wordExistsInOrdbok === true THEN // Om mer eller mindre än en bokstav har ändrats men ordet finns med i ordboken
+            PRINT Du skrev in wordTwo, bara en bokstav får ändras åt gången, skriv in ett annat ord
+        ELSE IF isOneLetterApart === true &&& wordExistsInOrdbok === false THEN // Om en bokstav ändrats men ordet finns inte med i ordboken
+            PRINT Du skrev in wordTwo, ditt ord finns inte med i ordboken, skriv in ett nytt ord
+        ELSE
+            PRINT Ditt ord finns inte med i ordlistan och du får bara ändra en bokstav åt gången, försök igen.
+        END IF
+
+        varabel wordOne = wordTwo // Flytta över ordet i wordTwo till wordOne
+        variabel wordTwo = INPUT från användaren // Skriv över gamla värdet i wordTwo med nya INPUTet från användaren
+    END WHILE
+
+PRINT Grattis du vann!
 
 end function
+
+
+function wordExistsInOrdbok(ordbok, wordTwo)
+    SET variabel isTrue till 0;
+     
+    FOR varje ord i ordbok, räkna med index 'i'
+        IF i === wordTwo // Om ordet i ordboken stämmer överrens med wordTwo
+            isTrue ++ // Lägg till 1 i isTrue
+        END IF
+    END FOR
+        return isTrue === 1; // returnerar sant om ordet finns med i ordboken, annars falskt
+END FUNCTION
 
 function isOneLetterApart(wordOne, wordTwo)
     SET variabel diffCount till 0;
 
-    // Här behöver du skriva koden för din funktion
+    FOR varje tecken i wordOne, räkna med index 'i'
+        IF wordOne plats i === wordTwo plats i // Om bokstaven i wordOne stämmer överrens med bokstaven i wordTwo 
+            diffCount ++ //lägg till 1 i diffCount
+        END IF
+    END FOR
 
     return diffCount === 1; // returnerar sant om endast en bokstav ändrats, annars falskt
 end function
