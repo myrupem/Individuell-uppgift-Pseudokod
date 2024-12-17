@@ -29,6 +29,8 @@ FUNCTION SplitNota
     END FUNCTION
 
     PRINT splitSum
+END FUNCTION
+
 */
 
 // VG-Version - Lewis Carroll Word Puzzle
