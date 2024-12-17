@@ -44,14 +44,14 @@ function play()
     SET variabel slutordOrd till "FIVE";
 
     SET variabel wordOne = Till en början ordet "FOUR" men sedan INPUT från användaren
-    SET variabel wordTwo = INPUT från användaren
+    SET variabel wordTwo = Till en tom string ( kommer komma INPUT från användaren som sparas i denna variabeln)
 
     PRINT Startordet är "FOUR"
     PRINT Slutordet är "FIVE"
     PRINT Skriv in ett ord:
     
     
-    WHILE wordTwo !=== slutOrd // Loopa denna funktionen så länge användarens ord inte är slutordet
+    WHILE wordTwo !== slutOrd // Loopa denna funktionen så länge användarens ord inte är slutordet
         Användaren skriver in ett ord i wordTwo
         Kör funtionen isOneLetterApart(wordOne, wordTwo)
         Kör funtionen wordExistsInOrdbok(wordTwo)
@@ -66,8 +66,8 @@ function play()
             PRINT Ditt ord finns inte med i ordlistan och du får bara ändra en bokstav åt gången, försök igen.
         END IF
 
-        varabel wordOne = wordTwo // Flytta över ordet i wordTwo till wordOne
-        variabel wordTwo = INPUT från användaren // Skriv över gamla värdet i wordTwo med nya INPUTet från användaren
+        wordOne = wordTwo // Flytta över ordet i wordTwo till wordOne
+        wordTwo = INPUT från användaren // Skriv över gamla värdet i wordTwo med nya INPUTet från användaren
     END WHILE
 
 PRINT Grattis du vann!
@@ -76,21 +76,19 @@ end function
 
 
 function wordExistsInOrdbok(ordbok, wordTwo)
-    SET variabel isTrue till 0;
-     
     FOR varje ord i ordbok, räkna med index 'i'
         IF i === wordTwo // Om ordet i ordboken stämmer överrens med wordTwo
-            isTrue ++ // Lägg till 1 i isTrue
+            return true; // returnerar sant direkt om ordet finns med i ordboken
         END IF
     END FOR
-        return isTrue === 1; // returnerar sant om ordet finns med i ordboken, annars falskt
+        return false; // returnerar falskt om ordet inte finns med
 END FUNCTION
 
 function isOneLetterApart(wordOne, wordTwo)
     SET variabel diffCount till 0;
 
     FOR varje tecken i wordOne, räkna med index 'i'
-        IF wordOne plats i === wordTwo plats i // Om bokstaven i wordOne stämmer överrens med bokstaven i wordTwo 
+        IF wordOne plats i !== wordTwo plats i // Om bokstaven i wordOne inte stämmer överrens med bokstaven i wordTwo 
             diffCount ++ //lägg till 1 i diffCount
         END IF
     END FOR
